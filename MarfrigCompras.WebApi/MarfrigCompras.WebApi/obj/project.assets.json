@@ -13257,11 +13257,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Almir\\source\\repos\\MarfrigCompras.WebApi\\MarfrigCompras.WebApi\\MarfrigCompras.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Almir\\source\\GIT\\MarfCompraGado\\MarfrigCompras.WebApi\\MarfrigCompras.WebApi\\MarfrigCompras.WebApi.csproj",
       "projectName": "MarfrigCompras.WebApi",
-      "projectPath": "C:\\Users\\Almir\\source\\repos\\MarfrigCompras.WebApi\\MarfrigCompras.WebApi\\MarfrigCompras.WebApi.csproj",
+      "projectPath": "C:\\Users\\Almir\\source\\GIT\\MarfCompraGado\\MarfrigCompras.WebApi\\MarfrigCompras.WebApi\\MarfrigCompras.WebApi.csproj",
       "packagesPath": "C:\\Users\\Almir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Almir\\source\\repos\\MarfrigCompras.WebApi\\MarfrigCompras.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\Almir\\source\\GIT\\MarfCompraGado\\MarfrigCompras.WebApi\\MarfrigCompras.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\Microsoft SDKs\\NuGetPackagesFallback\\"
