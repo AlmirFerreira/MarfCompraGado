@@ -15,3 +15,6 @@ Copiar os seguintes arquivos de Banco de Dados na raiz do C: ficando da seguinte
 - Abrir o projeto Windows Form e dar duplo clique na Solução (MarfrigCompras.sln);
 - Apertar as teclas Ctrl + Shift + H e sustituir http://localhost:49585/ na Solução Inteira, pela URL que o Web.API está sendo executado no seu Navegador;
 - Executar o projeto Windows Form.
+
+## Importante
+Ambos os Projetos foram desenvolvidos no Visual Studio 2017 e o Projeto MarfrigCompras.API foi desenvolvido com tecnologia Asp Net Core.
