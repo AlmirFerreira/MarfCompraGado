@@ -13,7 +13,7 @@ namespace MarfrigCompras
 {
     public partial class RelatorioCompraGado : Form
     {
-        public List<CompraGadoItensReportAdapter> CompraGadoItens = new List<MarfrigCompras.CompraGadoItensReportAdapter>();
+        public List<CompraGadoItensReport> CompraGadoItens = new List<MarfrigCompras.CompraGadoItensReport>();
         
 
         public RelatorioCompraGado(string Id)
@@ -26,7 +26,7 @@ namespace MarfrigCompras
             });
 
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:49585/");
+            client.BaseAddress = new Uri(Constants.MarfrigApiHostAddress);
             var response = client.PostAsync("api/Compras/Compras", content).Result;
 
             var compra = response.Content.ReadAsAsync<IEnumerable<CompraGadoGrid>>().Result.FirstOrDefault();

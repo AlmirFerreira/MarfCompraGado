@@ -82,7 +82,7 @@ namespace MarfrigCompras
                     });
 
                     HttpClient client = new HttpClient();
-                    client.BaseAddress = new Uri("http://localhost:49585/");
+                    client.BaseAddress = new Uri(Constants.MarfrigApiHostAddress);
                     var responseCompra = client.PostAsync("api/Compras/InsereCompra", conteudoCompra).Result;
 
                     int compraID = responseCompra.Content.ReadAsAsync<int>().Result;
@@ -97,7 +97,7 @@ namespace MarfrigCompras
                         });
 
                         HttpClient clientItem = new HttpClient();
-                        clientItem.BaseAddress = new Uri("http://localhost:49585/");
+                        clientItem.BaseAddress = new Uri(Constants.MarfrigApiHostAddress);
                         var responseCompraItens = clientItem.PostAsync("api/Compras/InsereItens", conteudoCompraItensContent).Result;
 
                     }
@@ -155,7 +155,7 @@ namespace MarfrigCompras
             try
             {
                 HttpClient client = new HttpClient();
-                client.BaseAddress = new Uri("http://localhost:49585/");
+                client.BaseAddress = new Uri(Constants.MarfrigApiHostAddress);
                 HttpResponseMessage response = client.GetAsync("api/Pecuarista/ListaPecuaristas").Result;
 
                 var pecuaristaRetorno = response.Content.ReadAsAsync<IEnumerable<Pecuarista>>().Result;
@@ -180,7 +180,7 @@ namespace MarfrigCompras
             try
             {
                 HttpClient client = new HttpClient();
-                client.BaseAddress = new Uri("http://localhost:49585/");
+                client.BaseAddress = new Uri(Constants.MarfrigApiHostAddress);
                 HttpResponseMessage response = client.GetAsync("api/Animal/ListaAnimais").Result;
 
                 var animalRetorno = response.Content.ReadAsAsync<IEnumerable<Animal>>().Result;

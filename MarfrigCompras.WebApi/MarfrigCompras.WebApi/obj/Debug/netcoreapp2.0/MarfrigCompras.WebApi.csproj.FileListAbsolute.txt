@@ -14,9 +14,9 @@ C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras.WebApi\MarfrigCompras.We
 C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras.WebApi\MarfrigCompras.WebApi\bin\Debug\netcoreapp2.0\MarfrigCompras.WebApi.runtimeconfig.dev.json
 C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras.WebApi\MarfrigCompras.WebApi\bin\Debug\netcoreapp2.0\MarfrigCompras.WebApi.dll
 C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras.WebApi\MarfrigCompras.WebApi\bin\Debug\netcoreapp2.0\MarfrigCompras.WebApi.pdb
-C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras.WebApi\MarfrigCompras.WebApi\obj\Debug\netcoreapp2.0\MarfrigCompras.WebApi.csprojResolveAssemblyReference.cache
 C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras.WebApi\MarfrigCompras.WebApi\obj\Debug\netcoreapp2.0\MarfrigCompras.WebApi.csproj.CoreCompileInputs.cache
 C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras.WebApi\MarfrigCompras.WebApi\obj\Debug\netcoreapp2.0\MarfrigCompras.WebApi.AssemblyInfoInputs.cache
 C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras.WebApi\MarfrigCompras.WebApi\obj\Debug\netcoreapp2.0\MarfrigCompras.WebApi.AssemblyInfo.cs
 C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras.WebApi\MarfrigCompras.WebApi\obj\Debug\netcoreapp2.0\MarfrigCompras.WebApi.dll
 C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras.WebApi\MarfrigCompras.WebApi\obj\Debug\netcoreapp2.0\MarfrigCompras.WebApi.pdb
+C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras.WebApi\MarfrigCompras.WebApi\obj\Debug\netcoreapp2.0\MarfrigCompras.WebApi.csprojResolveAssemblyReference.cache

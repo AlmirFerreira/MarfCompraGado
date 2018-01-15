@@ -112,19 +112,19 @@ namespace MarfrigCompras
             });
 
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:49585/");
+            client.BaseAddress = new Uri(Constants.MarfrigApiHostAddress);
             var response = client.PostAsync("api/Compras/ComprasItem", content).Result;
 
             var compra = response.Content.ReadAsAsync<IEnumerable<CompraGadoItensReport>>().Result;
 
             foreach (var item in compra)
             {
-                var compraItem = new MarfrigCompras.CompraGadoItensReportAdapter()
+                var compraItem = new MarfrigCompras.CompraGadoItensReport()
                 {
-                    Id = item.Animal,
+                    Animal = item.Animal,
                     Quantidade = item.Quantidade,
-                    CompraGadoId = item.Preco,
-                    AnimalId = item.Total
+                    Preco = item.Preco,
+                    Total = item.Total
                 };
 
                 relatorioCompraGado.CompraGadoItens.Add(compraItem);
@@ -149,7 +149,7 @@ namespace MarfrigCompras
             try
             {
                 HttpClient client = new HttpClient();
-                client.BaseAddress = new Uri("http://localhost:49585/");
+                client.BaseAddress = new Uri(Constants.MarfrigApiHostAddress);
                 HttpResponseMessage response = client.GetAsync("api/Pecuarista/ListaPecuaristas").Result;
 
                 var pecuaristaRetorno = response.Content.ReadAsAsync<IEnumerable<Pecuarista>>().Result;
@@ -174,7 +174,7 @@ namespace MarfrigCompras
             try
             {
                 HttpClient client = new HttpClient();
-                client.BaseAddress = new Uri("http://localhost:49585/");
+                client.BaseAddress = new Uri(Constants.MarfrigApiHostAddress);
                 var response = client.PostAsync("api/Compras/Compras", content).Result;
 
                 var compra = response.Content.ReadAsAsync<IEnumerable<CompraGadoGrid>>().Result;

@@ -149,3 +149,5 @@ C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras\MarfrigCompras\obj\Debug
 C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras\MarfrigCompras\obj\Debug\MarfrigCompras.csproj.CoreCompileInputs.cache
 C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras\MarfrigCompras\obj\Debug\MarfrigCompras.exe
 C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras\MarfrigCompras\obj\Debug\MarfrigCompras.pdb
+C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras\MarfrigCompras\bin\Debug\Marfrig.mdf
+C:\Users\Almir\source\GIT\MarfCompraGado\MarfrigCompras\MarfrigCompras\bin\Debug\Marfrig_log.ldf
